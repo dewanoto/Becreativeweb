@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becreative</title>
+    
+    <link rel="stylesheet" href="style.css">
+<!--
+
+-->
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- SINGLE NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Grid of circles with varying sizes -->
+                            <circle cx="16" cy="16" r="5" opacity="0.9"/>
+                            <circle cx="32" cy="16" r="4" opacity="0.8"/>
+                            <circle cx="16" cy="32" r="4" opacity="0.7"/>
+                            <circle cx="32" cy="32" r="5" opacity="0.85"/>
+                            <!-- Small accent dots -->
+                            <circle cx="24" cy="8" r="2" opacity="1"/>
+                            <circle cx="8" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="40" cy="24" r="2" opacity="0.9"/>
+                            <circle cx="24" cy="40" r="2" opacity="1"/>
+                            <!-- Tiny corner dots -->
+                            <circle cx="8" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="8" r="1" opacity="0.6"/>
+                            <circle cx="8" cy="40" r="1" opacity="0.6"/>
+                            <circle cx="40" cy="40" r="1" opacity="0.6"/>
+                        </svg>
+                    </div>
+                    <span>Becreative</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" onclick="showPage('home')" class="active">Home</a>
+                    <a href="#" onclick="showPage('about')">About</a>
+                    <a href="#" onclick="showPage('services')">Services</a>
+                    <a href="#" onclick="showPage('contact')">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="hero glass">
+                    <div class="hero-image">
+                        <img src="images/logo bc.png"/>
+                    </div>
+                    <div class="hero-content">
+                        <h1>Welcome to the Becreative</h1>
+                        <p>Graphic design, photography, videography, photo editing, and video editing services.</p>
+                        <a href="#" class="cta-button" onclick="showPage('about')">Learn More</a>
+                    </div>
+                </section>
+
+                <section class="features">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Graphic Design</h3>
+                        <p>Logos, posters, social media content, and brand needs.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📸</div>
+                        <h3>photography</h3>
+                        <p>Product photos, event photography, corporate photography.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📷</div>
+                        <h3>Photo Editing</h3>
+                        <p>Retouching, color correction, visual composition.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🎬</div>
+                        <h3>Vidio Editing</h3>
+                        <p>Cutting, audio, grading, light motion effects.</p>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="about-content">
+                    <div class="about-text glass">
+                        <h2>About Our Vision and Mission</h2>
+                        <p>Vision.</p>
+                        <p>Help businesses and individuals have a strong and easily recognizable visual identity.</p>
+                        <p>Mission.</p>
+                        <p> Enhance content quality through clear services.
+                            Ensure efficient production process for fast results.
+                            Provide easy service experience through responsive communication.
+                            Maintain portfolio transparency so clients know work quality.</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-card glass">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">90+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card glass">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support Available</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="team-section">
+                    <h2>Meet Our Team</h2>
+                    <div class="team-grid">
+                        <div class="team-member glass">
+                            <div class="team-avatar">👨‍💼</div>
+                            <h3>Roy</h3>
+                            <p class="role">Creative Director</p>
+                            <p class="bio">Leads the creative vision and ensures every project aligns with the client's goals.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                        <div class="team-member glass">
+                            <div class="team-avatar">👩‍🎨</div>
+                            <h3>Shandira</h3>
+                            <p class="role">Designer</p>
+                            <p class="bio">• Creates visual assets that shape clear and consistent brand identity.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                        <div class="team-member glass">
+                            <div class="team-avatar">👨‍💻</div>
+                            <h3>Hasan</h3>
+                            <p class="role">Lead Developer</p>
+                            <p class="bio">Full-stack expert passionate about clean code and innovative web technologies.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                        <div class="team-member glass">
+                            <div class="team-avatar">👩‍💻</div>
+                            <h3>Kyla</h3>
+                            <p class="role">Photographer</p>
+                            <p class="bio">Captures high quality product, event, and corporate images for professional use.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                        <div class="team-member glass">
+                            <div class="team-avatar">👨‍🎨</div>
+                            <h3>Catur</h3>
+                            <p class="role">Vidiographer</p>
+                            <p class="bio">Records footage that supports strong storytelling for profiles, events, and promotions.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                        <div class="team-member glass">
+                            <div class="team-avatar">👩‍💼</div>
+                            <h3>Viona</h3>
+                            <p class="role">Editor</p>
+                            <p class="bio">Polishes photos and videos to deliver clean and ready to publish final results.</p>
+                            <div class="team-social">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES PAGE -->
+    <div id="services" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="hero glass">
+                    <h1>Our Services</h1>
+                    <p>You get clear and focused support for your visual content needs.</p>
+                </section>
+
+                <section class="services-grid">
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🎨</div>
+                            <h3>Graphic Design</h3>
+                        </div>
+                        <p>Creates visual materials that support your brand.</p>
+                        <ul class="service-features">
+                            <li>Logo</li>
+                            <li>Poster</li>
+                            <li>Social media content</li>
+                            <li>Brand materials</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">📸</div>
+                            <h3>photography</h3>
+                        </div>
+                        <p>Produces images that highlight products, events, and corporate needs.</p>
+                        <ul class="service-features">
+                            <li>Product photos</li>
+                            <li>Event photography</li>
+                            <li>Corporate photography</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">🎬</div>
+                            <h3>Videography</h3>
+                        </div>
+                        <p>Captures videos that strengthen storytelling and promotion.</p>
+                        <ul class="service-features">
+                            <li>Profile Videos</li>
+                            <li>Event Videos</li>
+                            <li>Promotional Videos</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">💻</div>
+                            <h3>Photo Editing</h3>
+                        </div>
+                        <p>Improves image quality for clean and polished results.</p>
+                        <ul class="service-features">
+                            <li>Retouching</li>
+                            <li>Color correction</li>
+                            <li>Visual composition</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <div class="service-icon">💻</div>
+                            <h3>Video Editing</h3>
+                        </div>
+                        <p>Refines raw footage into ready to publish content.</p>
+                        <ul class="service-features">
+                            <li>Cutting</li>
+                            <li>Audio cleanup</li>
+                            <li>Grading</li>
+                            <li>Light motion effects</li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="contact-grid">
+                    <div class="contact-form glass">
+                        <h2>Get In Touch</h2>
+                        <form action="send.php" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info glass">
+                        <h2>Contact Information</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p>Becreative@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-text">
+                                <h4>Phone</h4>
+                                <p>+62 878-1366-1539</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Address</h4>
+                                <p>Surakarta<br>Jl. Kandang Sapi, RT.03/RW.34, Jebres, Kec. Jebres</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🕒</div>
+                            <div class="contact-item-text">
+                                <h4>Business Hours</h4>
+                                <p>Mon-Fri: 9AM-6PM<br>Sat-Sun: 10AM-4PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🌐</div>
+                            <div class="contact-item-text">
+                                <h4>Portofolio <br>Instagram</h4>
+                                <p>@Becreative</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-map-section">
+                    <div class="contact-map glass">
+                        <h2>Find Us</h2>
+                        <div class="map-container">
+                            <div class="map-placeholder">
+                                <div class="map-placeholder-icon">🗺️</div>
+                                <p><strong>Interactive Map Area</strong></p>
+                                <p>Surakarta</p>
+                                <p>Jl. Kandang Sapi, RT.03/RW.34, Jebres, Kec. Jebres</p>
+                                <p style="margin-top: 15px; font-size: 12px; opacity: 0.7;">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- SINGLE FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <footer class="glass">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#" onclick="showPage('about')">About Us</a>
+                        <a href="#" onclick="showPage('services')"> Terms of Service</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                    </div>
+                    <div class="copyright">
+                        <p>Becreative Production | Visuals that deliver your message.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
